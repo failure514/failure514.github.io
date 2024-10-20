@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    height:100px;
+    border-bottom: 3px black solid;
+    line-height: 100px;
+}
+body{
+    background-image: url("../img/back.jpg");
+    background-size: 100%;
+}
+#box1{
+    width: 1400px;
+    margin: 0px auto;
+    background-color: rgba(255,255,255,0.3);
+}
+nav{
+    box-sizing: border-box;
+    height: 74px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 3px rgb(190, 185, 185) solid;
+    overflow: visible;
+}
+#imgbox{
+    width: 60px;
+    padding: 5px;
+    float: left;
+}
+#imgbox img{
+    width: 60px;
+    border-radius:60px;
+}
+nav .menu{
+    height: 70px;
+    padding: 5px;
+    margin: 0px auto;
+    line-height: 60px;
+}
+nav li {
+    float: right;
+}
+nav>ul>li>a{
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    margin-right: 120px;
+    text-align: center;
+}
+#box2{
+    padding: 20px;
+    line-height: 2em;
+    text-indent: 2em;
+    clear: both;
+}
+.menu2 li {
+    float: left;
+}
+
+.menu2 a {
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    background-color: #2f3e45;
+}
+
+.menu2 {
+    width: 100px;
+    padding: 0;
+    opacity: 0.3;
+    height: 0;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.menu .menu1:hover .menu2 {
+    opacity: 1;
+    height: 180px;
+    overflow: visible;
+}
+
+.menu1 {
+    height: 60px;
+    position: relative;
+    overflow: visible;
+}
