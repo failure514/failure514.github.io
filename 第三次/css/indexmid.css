@@ -1,0 +1,56 @@
+#maxbox{
+    position:relative;
+}
+#midbox{
+    width: 1400px;
+    padding: 30px;
+}
+#midbox #midnav .mid-li{
+    width: 100px;
+    height: 80px;
+}
+#midbox #midnav .mid-li>a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 80px;
+}
+#midbox #midnav .mid-li .mid-txt{
+    background-color:aquamarine;
+    display: none;
+    position: absolute;
+    left: 130px;
+    top: 214px;
+    height: 320px;
+    width: 1200px;
+}
+#midbox #midnav .mid-li:hover .mid-txt{
+    display: block;
+}
+#midbox #midnav .mid-li:hover{
+    background-color: beige;
+}
+
+.img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+
+#box3 h3 {
+    text-align: center;
+}
+
+#box3 {
+    clear: both;
+    border-top: 3px #98de98 solid;
+    line-height: 2em;
+    border-bottom: 3px #98de98 solid;
+    padding-bottom: 30px;
+}
+
+#img2 {
+    width: 300px;
+    float: right;
+}
+
